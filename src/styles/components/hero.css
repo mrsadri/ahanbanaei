@@ -46,10 +46,17 @@
   position: relative;
   z-index: 1;
   display: grid;
-  gap: var(--sp-7);
-  grid-template-columns: 1fr;
+  gap: var(--sp-6);
+  /* minmax(0, …) so a long unbreakable string in the copy can never push
+     the column past its track and force a horizontal scrollbar. */
+  grid-template-columns: minmax(0, 1fr);
   align-items: center;
 }
+
+/* The copy column keeps a comfortable measure of its own, so on tablet
+   widths the text does not stretch edge to edge before the two-column
+   layout kicks in. */
+.hero__copy { max-inline-size: 42rem; }
 
 .hero__eyebrow {
   display: inline-flex;
@@ -75,25 +82,36 @@
 
 .hero h1 { text-wrap: balance; }
 
+/* A short measure keeps the home headline to two dense lines instead of one
+   long ribbon; `balance` then evens those lines out. Scoped to the copy
+   column so the inner pages' `.hero--plain` titles stay on one line. */
+.hero__copy h1 { max-inline-size: 20ch; }
+
 .hero__lead {
   color: var(--text-muted);
   font-size: var(--fs-400);
-  max-inline-size: 34rem;
-  margin-block: var(--sp-4) var(--sp-5);
+  max-inline-size: 32rem;
+  /* The h1 line-height already leaves air underneath, so the lead sits
+     closer to it than to the buttons below. */
+  margin-block: var(--sp-3) var(--sp-6);
 }
 
+/* The frame owns the aspect ratio, the image fills it. That keeps the box
+   reserved before the photo decodes (CLS stays 0) and lets the ratio change
+   per breakpoint without touching the asset. */
 .hero__media {
   position: relative;
   display: block;
+  aspect-ratio: 4/3;
   border-radius: var(--r-3);
   overflow: hidden;
   border: 1px solid var(--border);
   box-shadow: var(--sh-2);
 }
 .hero__media img {
-  aspect-ratio: 1/1;
-  object-fit: cover;
   inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
 }
 /* Sinks the photo into the page ground so it reads as part of the
    surface rather than a pasted rectangle. */
@@ -107,14 +125,48 @@
   pointer-events: none;
 }
 
-/* .stats sizing lives in card.css; the hero adds only the rule above it. */
+/* card.css lays the stats out as a wrapping flex row, which leaves the three
+   figures unevenly spaced under the buttons. In the hero they read better as
+   equal columns sitting on a rule: the numbers line up with each other and
+   the block reads as one footer to the copy, not three stray items. */
 .hero .stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
+  gap: var(--sp-5);
+  margin-block-start: var(--sp-6);
   padding-block-start: var(--sp-5);
   border-block-start: 1px solid var(--border);
 }
+.hero .stat b { line-height: 1.2; }
+.hero .stat span { display: block; margin-block-start: var(--sp-1); }
+
+@media (min-width: 48rem) {
+  /* Wider viewport, wider crop: the photo becomes a band rather than a
+     block, so it never dominates the fold on a tablet. */
+  .hero__media { aspect-ratio: 16/10; }
+}
 
 @media (min-width: 64rem) {
-  .hero__grid { grid-template-columns: 1fr 1fr; }
+  /* The copy column takes the larger share. At a true 50/50 the text track
+     is only ~34rem, exactly the lead's measure, which leaves the headline
+     with no slack while the square photo takes half the fold. */
+  .hero__grid {
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+    gap: var(--sp-8);
+    align-items: stretch;
+  }
+  .hero__copy {
+    max-inline-size: none;
+    align-self: center;
+  }
+  /* Stretched to the copy's height so both columns share one baseline at the
+     bottom of the fold; the min-height guards against a squat frame if the
+     copy ever gets shorter. */
+  .hero__media {
+    aspect-ratio: auto;
+    align-self: stretch;
+    min-block-size: 26rem;
+  }
 }
 
 /* Motion: the default state is fully visible. Animations are added only
