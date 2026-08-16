@@ -1,0 +1,67 @@
+{{!-- Usage: {{> head title=page.title description=page.description canonical="/" noindex=false}} --}}
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<meta name="theme-color" content="{{site.themeColor}}">
+<link rel="canonical" href="{{site.url}}{{canonical}}">
+{{#if noindex}}<meta name="robots" content="noindex">{{/if}}
+
+<link rel="preload" href="/fonts/vazirmatn-var.woff2" as="font" type="font/woff2" crossorigin>
+{{#if preloadHero}}<link rel="preload" href="{{preloadHero}}" as="image">{{/if}}
+
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{site.name}}">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:image" content="{{site.url}}/img/brand/og-cover.jpg">
+<meta property="og:url" content="{{site.url}}{{canonical}}">
+<meta property="og:locale" content="{{site.locale}}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{title}}">
+<meta name="twitter:description" content="{{description}}">
+<meta name="twitter:image" content="{{site.url}}/img/brand/og-cover.jpg">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HardwareStore",
+  "name": "{{business.legalName}}",
+  "image": "{{site.url}}/img/brand/og-cover.jpg",
+  "url": "{{site.url}}",
+  "telephone": "{{contact.phones.[0].tel}}",
+  "priceRange": "$$",
+  "areaServed": "{{contact.address.provinceFa}}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{contact.address.lineFa}}",
+    "addressLocality": "{{contact.address.cityFa}}",
+    "addressRegion": "{{contact.address.provinceFa}}",
+    {{#if contact.address.postalCode}}"postalCode": "{{contact.address.postalCode}}",{{/if}}
+    "addressCountry": "IR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "{{contact.address.lat}}",
+    "longitude": "{{contact.address.lng}}"
+  },
+  "openingHoursSpecification": [
+    {{#each contact.hours}}
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": {{{json schemaDays}}},
+      {{#unless closed}}"opens": "{{opens}}", "closes": "{{closes}}"{{else}}"opens": "00:00", "closes": "00:00"{{/unless}}
+    }{{#unless @last}},{{/unless}}
+    {{/each}}
+  ]
+}
+</script>
+</head>

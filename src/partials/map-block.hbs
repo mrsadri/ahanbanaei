@@ -1,0 +1,21 @@
+{{!-- Usage: {{> map-block}} --}}
+<div class="map-block">
+  <a class="map-block__figure map-block__figure--placeholder" href="{{contact.address.mapLinks.neshan}}" target="_blank" rel="noopener">
+    {{> icon name="pin"}}
+    <p>مشاهده روی نقشه نشان</p>
+  </a>
+  <div class="map-block__info">
+    <p><strong>{{contact.address.lineFa}}</strong></p>
+    {{#if contact.address.landmarkFa}}<p class="text-muted">{{contact.address.landmarkFa}}</p>{{/if}}
+    <ul class="map-block__hours">
+      {{#each contact.hours}}
+        <li>{{daysFa}}: {{#if closed}}{{closedFa}}{{else}}{{openFa}} تا {{closeFa}}{{/if}}</li>
+      {{/each}}
+    </ul>
+    <div class="map-block__links">
+      <a href="{{contact.address.mapLinks.neshan}}" target="_blank" rel="noopener">نشان {{> icon name="external"}}</a>
+      {{#if contact.address.mapLinks.balad}}<a href="{{contact.address.mapLinks.balad}}" target="_blank" rel="noopener">بلد {{> icon name="external"}}</a>{{/if}}
+      <a href="{{contact.address.mapLinks.google}}" target="_blank" rel="noopener">گوگل‌مپ {{> icon name="external"}}</a>
+    </div>
+  </div>
+</div>

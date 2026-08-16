@@ -1,0 +1,24 @@
+.about__grid {
+  display: grid;
+  gap: var(--sp-6);
+  grid-template-columns: 1fr;
+}
+.about__copy p { margin-block-end: var(--sp-5); }
+.about__quote {
+  border-inline-start: 3px solid var(--accent);
+  padding-inline-start: var(--sp-4);
+  font-size: var(--fs-500);
+  font-weight: var(--fw-bold);
+  color: var(--text-strong);
+  margin-block-start: var(--sp-6);
+}
+.about__photo {
+  border-radius: var(--r-2);
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+.about__photo img { aspect-ratio: 3/4; object-fit: cover; inline-size: 100%; }
+
+@media (min-width: 64rem) {
+  .about__grid { grid-template-columns: 3fr 2fr; align-items: start; }
+}

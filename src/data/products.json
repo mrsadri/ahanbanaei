@@ -1,0 +1,37 @@
+{
+  "categories": [
+    { "id": "rebar", "titleFa": "میلگرد آجدار", "summaryFa": "میلگرد آجدار ساختمانی برای آرماتوربندی فونداسیون و سقف.", "sizesFa": "۸ تا ۳۲", "image": "/img/products/rebar", "order": 1 },
+    { "id": "ipe", "titleFa": "تیرآهن", "summaryFa": "تیرآهن هاش سبک و سنگین برای اسکلت فلزی ساختمان.", "sizesFa": "۱۲ تا ۳۰", "image": "/img/products/ipe", "order": 2 },
+    { "id": "sheet", "titleFa": "ورق سیاه و گالوانیزه", "summaryFa": "ورق رول و برش‌خورده در ابعاد دلخواه.", "sizesFa": "۰.۵ تا ۲۰ میل", "image": "/img/products/sheet", "order": 3 },
+    { "id": "box", "titleFa": "پروفیل و قوطی", "summaryFa": "قوطی ستونی و صنعتی، پروفیل درب و پنجره.", "sizesFa": "۱ تا ۴ میل", "image": "/img/products/box", "order": 4 },
+    { "id": "angle", "titleFa": "نبشی", "summaryFa": "نبشی ساختمانی و صنعتی، شاخه ۶ و ۱۲ متری.", "sizesFa": "۳ تا ۱۰", "image": "/img/products/angle", "order": 5 },
+    { "id": "channel", "titleFa": "ناودانی", "summaryFa": "ناودانی سبک و سنگین برای سازه و قاب‌بندی.", "sizesFa": "۶ تا ۲۰", "image": "/img/products/channel", "order": 6 }
+  ],
+  "items": [
+    { "sku": "rebar_8_a2", "categoryId": "rebar", "type": "rebar", "typeFa": "میلگرد ساده", "size": "8", "sizeFa": "۸", "grade": "a2", "gradeFa": "A2", "standardFa": "INSO 3132", "unit": "kg", "unitFa": "کیلوگرم", "lengthM": 12, "factoryFa": "ذوب‌آهن اصفهان، کویر کاشان، فولاد آلیاژی یزد", "featured": false },
+    { "sku": "rebar_10_a3", "categoryId": "rebar", "type": "rebar", "typeFa": "میلگرد آجدار", "size": "10", "sizeFa": "۱۰", "grade": "a3", "gradeFa": "A3", "standardFa": "INSO 3132", "unit": "kg", "unitFa": "کیلوگرم", "lengthM": 12, "factoryFa": "ذوب‌آهن اصفهان، کویر کاشان، فولاد آلیاژی یزد", "featured": false },
+    { "sku": "rebar_12_a3", "categoryId": "rebar", "type": "rebar", "typeFa": "میلگرد آجدار", "size": "12", "sizeFa": "۱۲", "grade": "a3", "gradeFa": "A3", "standardFa": "INSO 3132", "unit": "kg", "unitFa": "کیلوگرم", "lengthM": 12, "factoryFa": "ذوب‌آهن اصفهان، کویر کاشان، فولاد آلیاژی یزد", "featured": false },
+    { "sku": "rebar_14_a3", "categoryId": "rebar", "type": "rebar", "typeFa": "میلگرد آجدار", "size": "14", "sizeFa": "۱۴", "grade": "a3", "gradeFa": "A3", "standardFa": "INSO 3132", "unit": "kg", "unitFa": "کیلوگرم", "lengthM": 12, "factoryFa": "ذوب‌آهن اصفهان، کویر کاشان، فولاد آلیاژی یزد", "featured": true },
+    { "sku": "rebar_16_a3", "categoryId": "rebar", "type": "rebar", "typeFa": "میلگرد آجدار", "size": "16", "sizeFa": "۱۶", "grade": "a3", "gradeFa": "A3", "standardFa": "INSO 3132", "unit": "kg", "unitFa": "کیلوگرم", "lengthM": 12, "factoryFa": "ذوب‌آهن اصفهان، کویر کاشان، فولاد آلیاژی یزد", "featured": true },
+    { "sku": "rebar_18_a3", "categoryId": "rebar", "type": "rebar", "typeFa": "میلگرد آجدار", "size": "18", "sizeFa": "۱۸", "grade": "a3", "gradeFa": "A3", "standardFa": "INSO 3132", "unit": "kg", "unitFa": "کیلوگرم", "lengthM": 12, "factoryFa": "ذوب‌آهن اصفهان، کویر کاشان، فولاد آلیاژی یزد", "featured": false },
+    { "sku": "rebar_20_a3", "categoryId": "rebar", "type": "rebar", "typeFa": "میلگرد آجدار", "size": "20", "sizeFa": "۲۰", "grade": "a3", "gradeFa": "A3", "standardFa": "INSO 3132", "unit": "kg", "unitFa": "کیلوگرم", "lengthM": 12, "factoryFa": "ذوب‌آهن اصفهان، کویر کاشان، فولاد آلیاژی یزد", "featured": false },
+    { "sku": "rebar_25_a3", "categoryId": "rebar", "type": "rebar", "typeFa": "میلگرد آجدار", "size": "25", "sizeFa": "۲۵", "grade": "a3", "gradeFa": "A3", "standardFa": "INSO 3132", "unit": "kg", "unitFa": "کیلوگرم", "lengthM": 12, "factoryFa": "ذوب‌آهن اصفهان، کویر کاشان، فولاد آلیاژی یزد", "featured": false },
+    { "sku": "rebar_32_a3", "categoryId": "rebar", "type": "rebar", "typeFa": "میلگرد آجدار", "size": "32", "sizeFa": "۳۲", "grade": "a3", "gradeFa": "A3", "standardFa": "INSO 3132", "unit": "kg", "unitFa": "کیلوگرم", "lengthM": 12, "factoryFa": "ذوب‌آهن اصفهان، کویر کاشان، فولاد آلیاژی یزد", "featured": false },
+
+    { "sku": "ipe_14_st37", "categoryId": "ipe", "type": "ipe", "typeFa": "تیرآهن IPE", "size": "14", "sizeFa": "۱۴", "grade": "st37", "gradeFa": "ST37", "standardFa": "DIN 1025", "unit": "kg", "unitFa": "کیلوگرم", "lengthM": 12, "factoryFa": "ذوب‌آهن اصفهان، فولاد مبارکه", "featured": true },
+    { "sku": "ipe_16_st37", "categoryId": "ipe", "type": "ipe", "typeFa": "تیرآهن IPE", "size": "16", "sizeFa": "۱۶", "grade": "st37", "gradeFa": "ST37", "standardFa": "DIN 1025", "unit": "kg", "unitFa": "کیلوگرم", "lengthM": 12, "factoryFa": "ذوب‌آهن اصفهان، فولاد مبارکه", "featured": false },
+    { "sku": "ipe_18_st37", "categoryId": "ipe", "type": "ipe", "typeFa": "تیرآهن IPE", "size": "18", "sizeFa": "۱۸", "grade": "st37", "gradeFa": "ST37", "standardFa": "DIN 1025", "unit": "kg", "unitFa": "کیلوگرم", "lengthM": 12, "factoryFa": "ذوب‌آهن اصفهان، فولاد مبارکه", "featured": true },
+    { "sku": "ipe_20_st37", "categoryId": "ipe", "type": "ipe", "typeFa": "تیرآهن IPE", "size": "20", "sizeFa": "۲۰", "grade": "st37", "gradeFa": "ST37", "standardFa": "DIN 1025", "unit": "kg", "unitFa": "کیلوگرم", "lengthM": 12, "factoryFa": "ذوب‌آهن اصفهان، فولاد مبارکه", "featured": false },
+
+    { "sku": "sheet-black_2_st37", "categoryId": "sheet", "type": "sheet-black", "typeFa": "ورق سیاه", "size": "2", "sizeFa": "۲ میل", "grade": "st37", "gradeFa": "ST37", "standardFa": "", "unit": "kg", "unitFa": "کیلوگرم", "lengthM": null, "factoryFa": "فولاد مبارکه", "featured": true },
+    { "sku": "sheet-black_3_st37", "categoryId": "sheet", "type": "sheet-black", "typeFa": "ورق سیاه", "size": "3", "sizeFa": "۳ میل", "grade": "st37", "gradeFa": "ST37", "standardFa": "", "unit": "kg", "unitFa": "کیلوگرم", "lengthM": null, "factoryFa": "فولاد مبارکه", "featured": false },
+    { "sku": "sheet-galv_1_st37", "categoryId": "sheet", "type": "sheet-galv", "typeFa": "ورق گالوانیزه", "size": "1", "sizeFa": "۱ میل", "grade": "st37", "gradeFa": "ST37", "standardFa": "", "unit": "kg", "unitFa": "کیلوگرم", "lengthM": null, "factoryFa": "فولاد مبارکه", "featured": false },
+
+    { "sku": "box_20x20x2_st37", "categoryId": "box", "type": "box", "typeFa": "قوطی ستونی", "size": "20x20x2", "sizeFa": "۲۰×۲۰×۲", "grade": "st37", "gradeFa": "ST37", "standardFa": "", "unit": "kg", "unitFa": "کیلوگرم", "lengthM": 6, "factoryFa": "فولاد مبارکه", "featured": true },
+    { "sku": "box_40x40x2_st37", "categoryId": "box", "type": "box", "typeFa": "قوطی صنعتی", "size": "40x40x2", "sizeFa": "۴۰×۴۰×۲", "grade": "st37", "gradeFa": "ST37", "standardFa": "", "unit": "kg", "unitFa": "کیلوگرم", "lengthM": 6, "factoryFa": "فولاد مبارکه", "featured": false },
+
+    { "sku": "angle_5x5x5_st37", "categoryId": "angle", "type": "angle", "typeFa": "نبشی", "size": "5x5x5", "sizeFa": "۵×۵×۵", "grade": "st37", "gradeFa": "ST37", "standardFa": "", "unit": "kg", "unitFa": "کیلوگرم", "lengthM": 6, "factoryFa": "فولاد مبارکه", "featured": false },
+
+    { "sku": "channel_10_st37", "categoryId": "channel", "type": "channel", "typeFa": "ناودانی", "size": "10", "sizeFa": "۱۰", "grade": "st37", "gradeFa": "ST37", "standardFa": "", "unit": "kg", "unitFa": "کیلوگرم", "lengthM": 6, "factoryFa": "فولاد مبارکه", "featured": false }
+  ]
+}

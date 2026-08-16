@@ -1,0 +1,58 @@
+{{> head title=page.title description=page.description canonical="/contact/"}}
+<body>
+<a class="skip-link" href="#main">رفتن به محتوای اصلی</a>
+{{> header active="contact"}}
+
+<main id="main">
+  <section class="hero hero--plain">
+    <div class="container">
+      {{> section-heading level=1 title=page.hero.title lead=page.hero.lead}}
+    </div>
+  </section>
+
+  <section id="contact-details">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>{{> icon name="phone"}} تلفن</h3>
+          {{#each contact.phones}}
+          <p><a href="tel:{{tel}}">{{labelFa}}: <bdi>{{display}}</bdi></a></p>
+          {{/each}}
+        </div>
+        <div class="contact-card">
+          <h3>{{> icon name="whatsapp"}} واتس‌اپ</h3>
+          <p><a href="https://wa.me/{{contact.whatsapp.number}}?text={{contact.whatsapp.prefill}}" target="_blank" rel="noopener"><bdi>{{contact.whatsapp.displayFa}}</bdi></a></p>
+        </div>
+        <div class="contact-card">
+          <h3>{{> icon name="clock"}} ساعات کاری</h3>
+          <div class="table-wrap">
+            <table class="plain">
+              <tbody>
+                {{#each contact.hours}}
+                <tr><td>{{daysFa}}</td><td>{{#if closed}}{{closedFa}}{{else}}{{openFa}} تا {{closeFa}}{{/if}}</td></tr>
+                {{/each}}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-block-start: var(--sp-7);">
+        {{> contact-actions}}
+      </div>
+    </div>
+  </section>
+
+  <section id="location">
+    <div class="container">
+      {{> section-heading title="آدرس و نقشه"}}
+      {{> map-block}}
+    </div>
+  </section>
+</main>
+
+{{> footer}}
+{{> sticky-bar}}
+<script type="module" src="/src/scripts/main.js"></script>
+</body>
+</html>

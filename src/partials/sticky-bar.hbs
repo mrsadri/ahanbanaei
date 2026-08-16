@@ -1,0 +1,11 @@
+{{!-- Usage: {{> sticky-bar}} — visible only below 48rem via CSS --}}
+<div class="sticky-bar" role="region" aria-label="اقدامات سریع تماس">
+  <a class="sticky-bar__btn sticky-bar__btn--call" href="tel:{{contact.phones.[0].tel}}">
+    {{> icon name="phone"}}
+    <span>تماس تلفنی</span>
+  </a>
+  <a class="sticky-bar__btn sticky-bar__btn--wa" href="https://wa.me/{{contact.whatsapp.number}}?text={{contact.whatsapp.prefill}}" target="_blank" rel="noopener">
+    {{> icon name="whatsapp"}}
+    <span>واتس‌اپ</span>
+  </a>
+</div>

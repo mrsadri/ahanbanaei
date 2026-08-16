@@ -1,0 +1,68 @@
+:root {
+  /* brand, sampled from brand/logo-original.jpg */
+  --red-500: #FD0C15;   /* logo mark, bright face. Accent, borders, focus ring */
+  --red-600: #D10810;   /* logo mark, shaded face. Button surfaces with white text */
+  --red-700: #A5060C;   /* pressed state, derived */
+  --steel-600: #404042; /* logo wordmark grey */
+  --steel-300: #BEBEC0; /* logo divider rule */
+
+  /* neutral ramp */
+  --ink-900: #0B0D0F;   /* page background */
+  --ink-800: #121417;   /* surface 1, cards */
+  --ink-700: #191C20;   /* surface 2, table header, sticky bar */
+  --ink-600: #23272C;   /* surface 3, hover */
+  --ink-500: #2E3338;   /* hairline borders */
+  --ink-400: #6B7076;   /* disabled text, dividers on light blocks */
+  --ink-300: #9AA1A8;   /* secondary text, 7.4:1 on --ink-900 */
+  --ink-200: #C9CED3;   /* body text, 12.3:1 on --ink-900 */
+  --ink-100: #F2F4F6;   /* headings */
+  --white: #FFFFFF;
+
+  /* status, used only in price deltas and badges */
+  --up: #3FB950;
+  --down: #FF6B6B;
+  --warn: #E3A008;
+
+  /* semantic aliases: components reference only these */
+  --bg: var(--ink-900);
+  --bg-raised: var(--ink-800);
+  --bg-sunken: var(--ink-700);
+  --border: var(--ink-500);
+  --text: var(--ink-200);
+  --text-strong: var(--ink-100);
+  --text-muted: var(--ink-300);
+  --accent: var(--red-500);
+  --accent-surface: var(--red-600);
+  --on-accent: var(--white);
+
+  /* type */
+  --font: 'Vazirmatn', 'IRANSans', Tahoma, system-ui, sans-serif;
+  --fs-100: 0.8125rem;  /* 13px, captions, timestamps, source chips */
+  --fs-200: 0.9375rem;  /* 15px, table cells, meta */
+  --fs-300: 1.0625rem;  /* 17px, body base */
+  --fs-400: 1.1875rem;  /* 19px, lead */
+  --fs-500: clamp(1.375rem, 1.1rem + 1.2vw, 1.75rem);   /* h3 */
+  --fs-600: clamp(1.625rem, 1.2rem + 2.0vw, 2.25rem);   /* h2 */
+  --fs-700: clamp(2.0rem,  1.4rem + 3.2vw, 3.25rem);    /* h1 */
+  --lh-body: 1.85;      /* Persian needs more leading than Latin */
+  --lh-heading: 1.45;
+  --fw-regular: 400; --fw-medium: 500; --fw-bold: 700; --fw-black: 900;
+
+  /* spacing, 4px base */
+  --sp-1: 0.25rem; --sp-2: 0.5rem;  --sp-3: 0.75rem; --sp-4: 1rem;
+  --sp-5: 1.5rem;  --sp-6: 2rem;    --sp-7: 3rem;    --sp-8: 4rem;
+  --sp-9: 6rem;    --sp-10: 8rem;
+  --section-y: clamp(3rem, 2rem + 5vw, 6rem);
+  --container: 75rem;   /* 1200px */
+  --gutter: clamp(1rem, 0.5rem + 2vw, 2rem);
+
+  /* radii: industrial, almost square */
+  --r-1: 2px;  --r-2: 6px;  --r-3: 12px;  --r-full: 999px;
+
+  /* shadows and rings: on dark surfaces, borders do the work */
+  --sh-1: 0 1px 2px rgb(0 0 0 / 0.6);
+  --sh-2: 0 8px 24px rgb(0 0 0 / 0.45);
+  --ring: 0 0 0 3px rgb(253 12 21 / 0.35);
+
+  --dur-1: 120ms; --dur-2: 220ms; --ease: cubic-bezier(0.2, 0, 0, 1);
+}

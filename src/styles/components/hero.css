@@ -1,0 +1,157 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  border-block-end: 1px solid var(--border);
+  /* Fine diagonal hatch, the texture of brushed/scored steel. Pure CSS,
+     zero bytes over the wire, and low enough contrast that it never
+     competes with the type sitting on top of it. */
+  background-image:
+    repeating-linear-gradient(135deg,
+      transparent 0 7px,
+      rgb(255 255 255 / 0.016) 7px 8px);
+}
+
+/* Red bleed from the inline-start edge, behind the headline. Logical
+   inset so it follows the reading direction. */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset-block-start: -30%;
+  inset-inline-start: -10%;
+  inline-size: min(46rem, 90%);
+  block-size: 130%;
+  background: radial-gradient(closest-side,
+    rgb(253 12 21 / 0.10),
+    rgb(253 12 21 / 0.04) 55%,
+    transparent 100%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Hairline that grounds the section against the header. */
+.hero::after {
+  content: "";
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline: 0;
+  block-size: 1px;
+  background: linear-gradient(to inline-end,
+    transparent,
+    color-mix(in srgb, var(--accent) 55%, transparent),
+    transparent);
+  pointer-events: none;
+}
+
+.hero__grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: var(--sp-7);
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+.hero__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: var(--sp-1) var(--sp-3);
+  margin-block-end: var(--sp-4);
+  border: 1px solid var(--border);
+  border-radius: var(--r-full);
+  background: color-mix(in srgb, var(--ink-800) 70%, transparent);
+  color: var(--text-muted);
+  font-size: var(--fs-100);
+  font-weight: var(--fw-medium);
+}
+.hero__eyebrow::before {
+  content: "";
+  inline-size: 7px;
+  block-size: 7px;
+  border-radius: var(--r-full);
+  background: var(--accent);
+  flex: none;
+}
+
+.hero h1 { text-wrap: balance; }
+
+.hero__lead {
+  color: var(--text-muted);
+  font-size: var(--fs-400);
+  max-inline-size: 34rem;
+  margin-block: var(--sp-4) var(--sp-5);
+}
+
+.hero__media {
+  position: relative;
+  display: block;
+  border-radius: var(--r-3);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: var(--sh-2);
+}
+.hero__media img {
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  inline-size: 100%;
+}
+/* Sinks the photo into the page ground so it reads as part of the
+   surface rather than a pasted rectangle. */
+.hero__media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom,
+    rgb(11 13 15 / 0) 55%,
+    rgb(11 13 15 / 0.45) 100%);
+  pointer-events: none;
+}
+
+/* .stats sizing lives in card.css; the hero adds only the rule above it. */
+.hero .stats {
+  padding-block-start: var(--sp-5);
+  border-block-start: 1px solid var(--border);
+}
+
+@media (min-width: 64rem) {
+  .hero__grid { grid-template-columns: 1fr 1fr; }
+}
+
+/* Motion: the default state is fully visible. Animations are added only
+   where motion is welcome, so a reduced-motion visitor (or a CSS failure)
+   never gets stuck looking at an empty hero. Only opacity and transform
+   are animated, so nothing reflows and CLS stays at 0. */
+@media (prefers-reduced-motion: no-preference) {
+  .hero__eyebrow,
+  .hero h1,
+  .hero__lead,
+  .hero .hero-actions,
+  .hero .stats {
+    animation: hero-rise 600ms var(--ease) backwards;
+  }
+  .hero__eyebrow    { animation-delay: 40ms; }
+  .hero h1          { animation-delay: 100ms; }
+  .hero__lead       { animation-delay: 180ms; }
+  .hero .hero-actions { animation-delay: 260ms; }
+  .hero .stats      { animation-delay: 340ms; }
+
+  .hero__media {
+    animation: hero-media-in 800ms var(--ease) 120ms backwards;
+  }
+  .hero__media img {
+    transition: transform 600ms var(--ease);
+  }
+  .hero__media:hover img {
+    transform: scale(1.03);
+  }
+}
+
+@keyframes hero-rise {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: none; }
+}
+
+@keyframes hero-media-in {
+  from { opacity: 0; transform: scale(0.985); }
+  to   { opacity: 1; transform: none; }
+}

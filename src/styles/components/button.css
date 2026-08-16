@@ -1,0 +1,31 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: var(--sp-3) var(--sp-5);
+  border-radius: var(--r-2);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-200);
+  min-block-size: 44px;
+  border: 1px solid transparent;
+  transition: background var(--dur-1) var(--ease), border-color var(--dur-1) var(--ease), transform var(--dur-1) var(--ease);
+}
+
+.btn--primary {
+  background: var(--accent-surface);
+  color: var(--on-accent);
+}
+.btn--primary:hover { background: var(--red-700); }
+
+.btn--ghost {
+  background: transparent;
+  border-color: var(--border);
+  color: var(--text-strong);
+}
+.btn--ghost:hover { border-color: var(--accent); color: var(--accent); }
+
+.btn__icon { flex: none; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .btn:active { transform: translateY(1px); }
+}

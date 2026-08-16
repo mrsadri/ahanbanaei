@@ -1,0 +1,48 @@
+name: Scrape market prices
+on:
+  schedule:
+    - cron: '30 4 * * *' # 08:00 Asia/Tehran (UTC+3:30, no DST)
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - run: npm run scrape
+      - name: Refuse to touch anything but the market file
+        run: |
+          dirty=$(git diff --name-only)
+          if [ -n "$(echo "$dirty" | grep -v '^src/data/prices.market.json$' || true)" ]; then
+            echo "Unexpected modified files: $dirty"; exit 1
+          fi
+      - id: commit
+        run: |
+          if git diff --quiet -- src/data/prices.market.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          git config user.name "ahanbanaei-price-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add src/data/prices.market.json
+          git commit -m "chore(prices): daily market snapshot"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+  publish:
+    needs: scrape
+    if: needs.scrape.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

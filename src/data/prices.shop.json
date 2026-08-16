@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-16T09:00:00+03:30",
+  "updatedBy": "masih",
+  "currency": "IRT",
+  "vatIncluded": false,
+  "noteFa": "قیمت‌های این فایل نمونه هستند و باید پیش از انتشار نهایی توسط مسیح با قیمت واقعی جایگزین شوند.",
+  "items": [
+    { "sku": "rebar_8_a2", "price": 0, "unit": "kg", "inStock": true, "minOrderFa": "", "noteFa": "" },
+    { "sku": "rebar_10_a3", "price": 0, "unit": "kg", "inStock": true, "minOrderFa": "", "noteFa": "" },
+    { "sku": "rebar_12_a3", "price": 0, "unit": "kg", "inStock": true, "minOrderFa": "", "noteFa": "" },
+    { "sku": "rebar_14_a3", "price": 0, "unit": "kg", "inStock": true, "minOrderFa": "یک بندیل", "noteFa": "" },
+    { "sku": "rebar_16_a3", "price": 0, "unit": "kg", "inStock": true, "minOrderFa": "یک بندیل", "noteFa": "" },
+    { "sku": "rebar_18_a3", "price": 0, "unit": "kg", "inStock": true, "minOrderFa": "", "noteFa": "" },
+    { "sku": "rebar_20_a3", "price": 0, "unit": "kg", "inStock": true, "minOrderFa": "", "noteFa": "" },
+    { "sku": "rebar_25_a3", "price": 0, "unit": "kg", "inStock": true, "minOrderFa": "", "noteFa": "" },
+    { "sku": "rebar_32_a3", "price": 0, "unit": "kg", "inStock": true, "minOrderFa": "", "noteFa": "" },
+    { "sku": "ipe_14_st37", "price": 0, "unit": "kg", "inStock": true, "minOrderFa": "یک شاخه", "noteFa": "" },
+    { "sku": "ipe_16_st37", "price": 0, "unit": "kg", "inStock": true, "minOrderFa": "", "noteFa": "" },
+    { "sku": "ipe_18_st37", "price": 0, "unit": "kg", "inStock": true, "minOrderFa": "یک شاخه", "noteFa": "" },
+    { "sku": "ipe_20_st37", "price": 0, "unit": "kg", "inStock": true, "minOrderFa": "", "noteFa": "" },
+    { "sku": "sheet-black_2_st37", "price": 0, "unit": "kg", "inStock": true, "minOrderFa": "", "noteFa": "" },
+    { "sku": "sheet-black_3_st37", "price": 0, "unit": "kg", "inStock": true, "minOrderFa": "", "noteFa": "" },
+    { "sku": "sheet-galv_1_st37", "price": 0, "unit": "kg", "inStock": true, "minOrderFa": "", "noteFa": "" },
+    { "sku": "box_20x20x2_st37", "price": 0, "unit": "kg", "inStock": true, "minOrderFa": "", "noteFa": "" },
+    { "sku": "box_40x40x2_st37", "price": 0, "unit": "kg", "inStock": true, "minOrderFa": "", "noteFa": "" },
+    { "sku": "angle_5x5x5_st37", "price": 0, "unit": "kg", "inStock": true, "minOrderFa": "", "noteFa": "" },
+    { "sku": "channel_10_st37", "price": 0, "unit": "kg", "inStock": true, "minOrderFa": "", "noteFa": "" }
+  ]
+}

@@ -1,0 +1,6 @@
+{{!-- Usage: {{> button href="/contact/" label="تماس بگیرید" variant="primary" icon="phone"}}
+     variant: "primary" | "ghost" --}}
+<a class="btn btn--{{or variant "primary"}}" href="{{href}}"{{#if external}} target="_blank" rel="noopener"{{/if}}>
+  {{#if icon}}{{> icon name=icon class="btn__icon"}}{{/if}}
+  <span>{{label}}</span>
+</a>

@@ -1,0 +1,30 @@
+.error404 {
+  text-align: center;
+  padding-block: var(--sp-9);
+  max-inline-size: 34rem;
+  margin-inline: auto;
+}
+.error404__mark { margin-inline: auto; margin-block-end: var(--sp-5); opacity: 0.7; }
+.error404__code {
+  font-size: var(--fs-700);
+  font-weight: var(--fw-black);
+  color: var(--accent);
+  line-height: 1;
+  margin-block-end: var(--sp-4);
+}
+.error404__body { color: var(--text-muted); margin-block-end: var(--sp-6); }
+.error404__nav {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  margin-block-end: var(--sp-7);
+}
+.error404__nav a {
+  padding: var(--sp-4);
+  border: 1px solid var(--border);
+  border-radius: var(--r-2);
+  color: var(--text-strong);
+  font-weight: var(--fw-bold);
+}
+.error404__nav a:hover { border-color: var(--accent); color: var(--accent); }
+.error404 .contact-actions { justify-content: center; }

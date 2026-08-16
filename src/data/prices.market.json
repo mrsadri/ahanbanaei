@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-16T12:08:45.928Z",
+  "sources": {
+    "ahanonline": {
+      "titleFa": "آهن آنلاین",
+      "url": "https://www.ahanonline.com/",
+      "status": "ok",
+      "fetchedAt": "2026-08-16T12:08:40.925Z",
+      "lastGoodAt": "2026-08-16T12:08:40.925Z",
+      "errorFa": null
+    }
+  },
+  "items": [
+    {
+      "sku": "rebar_12_a3",
+      "sourceId": "ahanonline",
+      "sourceUrl": "https://www.ahanonline.com/product-category/%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/%D9%82%DB%8C%D9%85%D8%AA-%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/",
+      "price": 77180,
+      "previousPrice": null,
+      "changePct": null,
+      "unit": "kg",
+      "currency": "IRT",
+      "capturedAt": "2026-08-16T12:08:40.925Z",
+      "status": "ok"
+    },
+    {
+      "sku": "rebar_14_a3",
+      "sourceId": "ahanonline",
+      "sourceUrl": "https://www.ahanonline.com/product-category/%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/%D9%82%DB%8C%D9%85%D8%AA-%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/",
+      "price": 66270,
+      "previousPrice": null,
+      "changePct": null,
+      "unit": "kg",
+      "currency": "IRT",
+      "capturedAt": "2026-08-16T12:08:40.925Z",
+      "status": "ok"
+    },
+    {
+      "sku": "rebar_16_a3",
+      "sourceId": "ahanonline",
+      "sourceUrl": "https://www.ahanonline.com/product-category/%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/%D9%82%DB%8C%D9%85%D8%AA-%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/",
+      "price": 70360,
+      "previousPrice": null,
+      "changePct": null,
+      "unit": "kg",
+      "currency": "IRT",
+      "capturedAt": "2026-08-16T12:08:40.925Z",
+      "status": "ok"
+    },
+    {
+      "sku": "rebar_18_a3",
+      "sourceId": "ahanonline",
+      "sourceUrl": "https://www.ahanonline.com/product-category/%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/%D9%82%DB%8C%D9%85%D8%AA-%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/",
+      "price": 64910,
+      "previousPrice": null,
+      "changePct": null,
+      "unit": "kg",
+      "currency": "IRT",
+      "capturedAt": "2026-08-16T12:08:40.925Z",
+      "status": "ok"
+    },
+    {
+      "sku": "rebar_20_a3",
+      "sourceId": "ahanonline",
+      "sourceUrl": "https://www.ahanonline.com/product-category/%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/%D9%82%DB%8C%D9%85%D8%AA-%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/",
+      "price": 65450,
+      "previousPrice": null,
+      "changePct": null,
+      "unit": "kg",
+      "currency": "IRT",
+      "capturedAt": "2026-08-16T12:08:40.925Z",
+      "status": "ok"
+    },
+    {
+      "sku": "rebar_25_a3",
+      "sourceId": "ahanonline",
+      "sourceUrl": "https://www.ahanonline.com/product-category/%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/%D9%82%DB%8C%D9%85%D8%AA-%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/",
+      "price": 67640,
+      "previousPrice": null,
+      "changePct": null,
+      "unit": "kg",
+      "currency": "IRT",
+      "capturedAt": "2026-08-16T12:08:40.925Z",
+      "status": "ok"
+    },
+    {
+      "sku": "rebar_32_a3",
+      "sourceId": "ahanonline",
+      "sourceUrl": "https://www.ahanonline.com/product-category/%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/%D9%82%DB%8C%D9%85%D8%AA-%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/",
+      "price": 65360,
+      "previousPrice": null,
+      "changePct": null,
+      "unit": "kg",
+      "currency": "IRT",
+      "capturedAt": "2026-08-16T12:08:40.925Z",
+      "status": "ok"
+    },
+    {
+      "sku": "ipe_14_st37",
+      "sourceId": "ahanonline",
+      "sourceUrl": "https://www.ahanonline.com/product-category/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86-%D9%88-%D9%87%D8%A7%D8%B4/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86/",
+      "price": 89143,
+      "previousPrice": null,
+      "changePct": null,
+      "unit": "kg",
+      "currency": "IRT",
+      "capturedAt": "2026-08-16T12:08:40.925Z",
+      "status": "ok"
+    },
+    {
+      "sku": "ipe_16_st37",
+      "sourceId": "ahanonline",
+      "sourceUrl": "https://www.ahanonline.com/product-category/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86-%D9%88-%D9%87%D8%A7%D8%B4/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86/",
+      "price": 85913,
+      "previousPrice": null,
+      "changePct": null,
+      "unit": "kg",
+      "currency": "IRT",
+      "capturedAt": "2026-08-16T12:08:40.925Z",
+      "status": "ok"
+    },
+    {
+      "sku": "ipe_18_st37",
+      "sourceId": "ahanonline",
+      "sourceUrl": "https://www.ahanonline.com/product-category/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86-%D9%88-%D9%87%D8%A7%D8%B4/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86/",
+      "price": 85150,
+      "previousPrice": null,
+      "changePct": null,
+      "unit": "kg",
+      "currency": "IRT",
+      "capturedAt": "2026-08-16T12:08:40.925Z",
+      "status": "ok"
+    },
+    {
+      "sku": "ipe_20_st37",
+      "sourceId": "ahanonline",
+      "sourceUrl": "https://www.ahanonline.com/product-category/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86-%D9%88-%D9%87%D8%A7%D8%B4/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86/",
+      "price": 97215,
+      "previousPrice": null,
+      "changePct": null,
+      "unit": "kg",
+      "currency": "IRT",
+      "capturedAt": "2026-08-16T12:08:40.925Z",
+      "status": "ok"
+    }
+  ]
+}

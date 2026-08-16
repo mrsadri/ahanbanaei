@@ -1,0 +1,17 @@
+.table-wrap { overflow-x: auto; }
+
+table.plain {
+  inline-size: 100%;
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--r-2);
+  overflow: hidden;
+  font-size: var(--fs-200);
+}
+table.plain th, table.plain td {
+  padding: var(--sp-3) var(--sp-4);
+  text-align: start;
+  border-block-end: 1px solid var(--border);
+}
+table.plain th { background: var(--bg-sunken); color: var(--text-muted); font-weight: var(--fw-medium); font-size: var(--fs-100); }
+table.plain tr:last-child td { border-block-end: none; }

@@ -1,0 +1,40 @@
+{{!-- Usage: {{> price-table kind="shop" titleFa="قیمت فروشگاه ما" rows=shopRows}}
+     kind: "shop" | "market" --}}
+<div class="price-block price-block--{{kind}}">
+  <h3 class="price-block__title">{{titleFa}}</h3>
+  <p class="price-block__meta text-muted">
+    {{#eq kind "shop"}}آخرین به‌روزرسانی: <time datetime="{{shopPrices.updatedAt}}">{{faDate shopPrices.updatedAt}}</time>{{/eq}}
+    {{#eq kind "market"}}گردآوری‌شده از منابع بازار، به همراه زمان دریافت هر ردیف{{/eq}}
+  </p>
+
+  <div class="price-table-wrap" tabindex="0" aria-label="جدول {{titleFa}}">
+    <table class="price-table" data-price-table="{{kind}}">
+      <thead>
+        <tr>
+          <th scope="col">کالا</th>
+          <th scope="col">سایز</th>
+          {{#eq kind "shop"}}
+            <th scope="col">قیمت (تومان)</th>
+            <th scope="col">حداقل سفارش</th>
+          {{else}}
+            <th scope="col">قیمت (تومان)</th>
+            <th scope="col">منبع و زمان دریافت</th>
+          {{/eq}}
+        </tr>
+      </thead>
+      <tbody>
+        {{#each rows}}
+          {{> price-row this kind=../kind}}
+        {{else}}
+          <tr class="price-table__empty"><td colspan="4">هنوز داده‌ای ثبت نشده است.</td></tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="price-cta" hidden data-price-cta="{{kind}}">
+    <p class="price-cta__title">قیمت امروز را تلفنی بگیرید</p>
+    <p class="text-muted">قیمت‌های این بخش به‌روز نیست. برای قیمت امروز و موجودی انبار تماس بگیرید.</p>
+    {{> contact-actions}}
+  </div>
+</div>

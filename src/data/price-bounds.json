@@ -1,0 +1,13 @@
+{
+  "defaults": { "minIRT": 5000, "maxIRT": 500000, "maxDailyChangePct": 12 },
+  "byType": {
+    "rebar": { "minIRT": 15000, "maxIRT": 200000 },
+    "ipe": { "minIRT": 15000, "maxIRT": 250000 },
+    "sheet-black": { "minIRT": 15000, "maxIRT": 300000 },
+    "sheet-galv": { "minIRT": 15000, "maxIRT": 300000 },
+    "box": { "minIRT": 15000, "maxIRT": 250000 },
+    "angle": { "minIRT": 15000, "maxIRT": 250000 },
+    "channel": { "minIRT": 15000, "maxIRT": 250000 }
+  },
+  "reviewedAt": "2026-08-16"
+}

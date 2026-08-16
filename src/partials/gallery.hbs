@@ -1,0 +1,12 @@
+{{!-- Usage: {{> gallery items=gallery variant="strip"}} — variant: "strip" | "grid" --}}
+<div class="gallery gallery--{{or variant "grid"}}">
+  {{#each items}}
+  <figure class="gallery__item">
+    <picture>
+      <source type="image/webp" srcset="{{base}}-480.webp 480w, {{base}}-960.webp 960w, {{base}}-1440.webp 1440w" sizes="(min-width: 64rem) 25vw, (min-width: 48rem) 33vw, 50vw">
+      <img src="{{base}}-960.webp" alt="{{altFa}}" width="{{or w 1440}}" height="{{or h 960}}"
+           loading="{{#eq @index 0}}eager{{else}}lazy{{/eq}}" decoding="async">
+    </picture>
+  </figure>
+  {{/each}}
+</div>

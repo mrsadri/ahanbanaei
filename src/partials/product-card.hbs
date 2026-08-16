@@ -1,0 +1,19 @@
+{{!-- Usage: {{> product-card this href="/contact/"}} — `this` is one item from catalog.categories --}}
+<article class="card card--product">
+  <picture>
+    <source type="image/webp" srcset="{{image}}-480.webp 480w, {{image}}-960.webp 960w, {{image}}-1440.webp 1440w" sizes="(min-width: 64rem) 33vw, (min-width: 30rem) 50vw, 100vw">
+    <img class="card__media" src="{{image}}-960.webp" alt="{{titleFa}}"
+         width="480" height="320" loading="lazy" decoding="async">
+  </picture>
+  <div class="card__body">
+    <h3 class="card__title">{{titleFa}}</h3>
+    <p class="card__meta">{{summaryFa}}</p>
+    {{#if sizesFa}}
+      <p class="card__sizes"><span class="card__label">سایز:</span> {{sizesFa}}</p>
+    {{/if}}
+  </div>
+  <a class="card__link" href="{{or href '/contact/'}}">
+    استعلام قیمت
+    {{> icon name="chevron" class="icon--dir"}}
+  </a>
+</article>

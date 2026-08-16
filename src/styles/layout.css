@@ -1,0 +1,44 @@
+/* breakpoints (custom properties do not work in media queries, so these
+   are written literally everywhere they are used):
+   --bp-sm: 30rem (480px)  --bp-md: 48rem (768px)
+   --bp-lg: 64rem (1024px) --bp-xl: 80rem (1280px) */
+
+.container {
+  max-inline-size: var(--container);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+section { padding-block: var(--section-y); }
+section + section { padding-block-start: 0; }
+
+main { display: block; }
+
+.section-heading { margin-block-end: var(--sp-6); }
+.section-heading__lead { color: var(--text-muted); margin-block-start: var(--sp-2); font-size: var(--fs-400); max-inline-size: 42rem; }
+
+.grid { display: grid; gap: var(--sp-5); }
+.grid--cards { grid-template-columns: 1fr; }
+.grid--why { grid-template-columns: 1fr; }
+.grid--gallery { grid-template-columns: repeat(2, 1fr); }
+
+@media (min-width: 30rem) {
+  .grid--cards { grid-template-columns: repeat(2, 1fr); }
+  .grid--why { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 48rem) {
+  .grid--gallery { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (min-width: 64rem) {
+  .grid--cards { grid-template-columns: repeat(3, 1fr); }
+  .grid--why { grid-template-columns: repeat(4, 1fr); }
+  .grid--gallery { grid-template-columns: repeat(4, 1fr); }
+  .prices-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--sp-6); align-items: start; }
+}
+
+.stack { display: flex; flex-direction: column; }
+.stack > * + * { margin-block-start: var(--sp-4); }
+
+.hero-actions, .contact-actions { display: flex; gap: var(--sp-3); flex-wrap: wrap; }

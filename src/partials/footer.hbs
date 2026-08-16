@@ -1,0 +1,32 @@
+{{!-- Usage: {{> footer}} --}}
+<footer class="site-footer">
+  <div class="container site-footer__grid">
+    <div class="site-footer__brand">
+      <span class="brand__word">{{site.name}}</span>
+      <p class="text-muted">{{business.slogan}}</p>
+      <p class="text-muted">{{business.shortIntro}}</p>
+    </div>
+
+    <nav class="site-footer__nav" aria-label="لینک‌های فوتر">
+      <ul>
+        {{#each nav}}
+        <li><a href="{{href}}">{{labelFa}}</a></li>
+        {{/each}}
+      </ul>
+    </nav>
+
+    <div class="site-footer__contact">
+      <ul>
+        <li>{{> icon name="phone"}} <bdi>{{contact.phones.[0].display}}</bdi></li>
+        <li>{{> icon name="whatsapp"}} <bdi>{{contact.whatsapp.displayFa}}</bdi></li>
+        <li>{{> icon name="pin"}} {{contact.address.lineFa}}</li>
+        <li>{{> icon name="clock"}} {{contact.hours.[0].daysFa}} {{contact.hours.[0].openFa}} تا {{contact.hours.[0].closeFa}}</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container site-footer__bottom">
+    <p>{{faDigits 1405}} {{legal.copyrightFa}}</p>
+    <p class="text-muted">{{legal.priceDisclaimerFa}}</p>
+  </div>
+</footer>

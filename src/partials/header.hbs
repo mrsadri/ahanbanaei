@@ -1,0 +1,31 @@
+{{!-- Usage: {{> header active="products"}} --}}
+<header class="site-header">
+  <div class="container site-header__row">
+    <a class="brand" href="/">
+      <svg class="brand__mark" width="28" height="28" viewBox="0 0 100 180" aria-hidden="true">
+        <polygon points="0,25 55,0 100,25 100,65 55,90 0,65" fill="var(--red-500)"/>
+        <polygon points="0,95 55,120 100,95 100,135 55,160 0,135" fill="var(--red-600)"/>
+      </svg>
+      <span class="brand__word">{{site.name}}</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      {{> icon name="menu" class="nav-toggle__open"}}
+      {{> icon name="close" class="nav-toggle__close"}}
+      <span class="visually-hidden">باز کردن منو</span>
+    </button>
+
+    <nav id="site-nav" class="site-nav" aria-label="ناوبری اصلی">
+      <ul>
+        {{#each nav}}
+        <li><a href="{{href}}"{{#eq key ../active}} aria-current="page"{{/eq}}>{{labelFa}}</a></li>
+        {{/each}}
+      </ul>
+    </nav>
+
+    <a class="btn btn--primary site-header__cta" href="tel:{{contact.phones.[0].tel}}">
+      {{> icon name="phone" class="btn__icon"}}
+      <span><bdi>{{contact.phones.[0].display}}</bdi></span>
+    </a>
+  </div>
+</header>

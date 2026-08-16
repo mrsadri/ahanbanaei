@@ -1,0 +1,32 @@
+{{> head title=page.title description=page.description canonical="/404.html" noindex=true}}
+<body>
+<a class="skip-link" href="#main">رفتن به محتوای اصلی</a>
+{{> header active=""}}
+
+<main id="main">
+  <div class="container">
+    <div class="error404">
+      <svg class="error404__mark" width="56" height="100" viewBox="0 0 100 180" aria-hidden="true">
+        <polygon points="0,25 55,0 100,25 100,65 55,90 0,65" fill="var(--steel-600)"/>
+        <polygon points="0,95 55,120 100,95 100,135 55,160 0,135" fill="var(--steel-600)"/>
+      </svg>
+      <p class="error404__code">{{faDigits 404}}</p>
+      <h1>{{page.headingFa}}</h1>
+      <p class="error404__body">{{page.bodyFa}}</p>
+
+      <nav class="error404__nav" aria-label="ناوبری اصلی">
+        {{#each nav}}
+        <a href="{{href}}">{{labelFa}}</a>
+        {{/each}}
+      </nav>
+
+      {{> contact-actions}}
+    </div>
+  </div>
+</main>
+
+{{> footer}}
+{{> sticky-bar}}
+<script type="module" src="/src/scripts/main.js"></script>
+</body>
+</html>

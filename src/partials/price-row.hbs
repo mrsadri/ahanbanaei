@@ -1,0 +1,23 @@
+{{!-- Usage inside price-table.hbs: {{> price-row this kind="shop"}} --}}
+<tr data-sku="{{sku}}" data-captured="{{capturedAt}}" data-kind="{{kind}}">
+  <td>{{typeFa}}{{#if gradeFa}} <span class="text-muted">{{gradeFa}}</span>{{/if}}</td>
+  <td>{{sizeFa}}</td>
+  {{#eq kind "shop"}}
+    <td class="price-cell">
+      {{#if inStock}}
+        <bdi>{{faNum price}}</bdi> <span class="unit">تومان/{{unitFa}}</span>
+      {{else}}
+        <span class="badge badge--out">ناموجود</span>
+      {{/if}}
+    </td>
+    <td class="text-muted">{{minOrderFa}}</td>
+  {{else}}
+    <td class="price-cell">
+      <bdi>{{faNum price}}</bdi> <span class="unit">تومان/{{unitFa}}</span>
+    </td>
+    <td class="src">
+      <a href="{{sourceUrl}}" rel="noopener nofollow" target="_blank">{{sourceTitleFa}} {{> icon name="external"}}</a>
+      <time datetime="{{capturedAt}}">{{faDate capturedAt}}</time>
+    </td>
+  {{/eq}}
+</tr>

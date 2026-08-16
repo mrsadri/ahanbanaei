@@ -1,0 +1,25 @@
+.contact-grid {
+  display: grid;
+  gap: var(--sp-5);
+  grid-template-columns: 1fr;
+}
+.contact-card {
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--r-2);
+  padding: var(--sp-5);
+}
+.contact-card h3 {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  font-size: var(--fs-400);
+  margin-block-end: var(--sp-3);
+}
+.contact-card h3 .icon { color: var(--accent); }
+.contact-card p { margin-block-end: var(--sp-1); }
+.contact-card a:hover { color: var(--accent); }
+
+@media (min-width: 48rem) {
+  .contact-grid { grid-template-columns: repeat(3, 1fr); }
+}

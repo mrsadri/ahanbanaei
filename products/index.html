@@ -1,0 +1,56 @@
+{{> head title=page.title description=page.description canonical="/products/"}}
+<body>
+<a class="skip-link" href="#main">رفتن به محتوای اصلی</a>
+{{> header active="products"}}
+
+<main id="main">
+  <section class="hero hero--plain">
+    <div class="container">
+      {{> section-heading level=1 title=page.hero.title lead=page.hero.lead}}
+    </div>
+  </section>
+
+  <section id="catalog">
+    <div class="container">
+      <div class="grid grid--cards">
+        {{#each catalog.categories}}
+          {{> product-card this href="/contact/"}}
+        {{/each}}
+      </div>
+    </div>
+  </section>
+
+  {{#each catalog.categories}}
+  <section id="sizes-{{id}}">
+    <div class="container">
+      <h2>سایزبندی {{titleFa}}</h2>
+      <p class="text-muted" style="margin-block-end: var(--sp-5);">واحد فروش: {{../catalog.items.[0].unitFa}}</p>
+      <div class="table-wrap">
+        <table class="plain">
+          <thead><tr><th scope="col">سایز</th><th scope="col">استاندارد / گرید</th><th scope="col">کارخانه</th></tr></thead>
+          <tbody>
+            {{#each ../catalog.items}}
+              {{#eq categoryId ../id}}
+              <tr><td>{{sizeFa}}</td><td>{{gradeFa}}{{#if standardFa}} — {{standardFa}}{{/if}}</td><td>{{factoryFa}}</td></tr>
+              {{/eq}}
+            {{/each}}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  {{/each}}
+
+  <section id="contact-cta">
+    <div class="container text-center">
+      {{> section-heading title="برای قیمت و موجودی دقیق تماس بگیرید"}}
+      {{> contact-actions}}
+    </div>
+  </section>
+</main>
+
+{{> footer}}
+{{> sticky-bar}}
+<script type="module" src="/src/scripts/main.js"></script>
+</body>
+</html>

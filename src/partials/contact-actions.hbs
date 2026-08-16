@@ -1,0 +1,11 @@
+{{!-- Usage: {{> contact-actions}} — reads contact.phones[0] and contact.whatsapp from page context --}}
+<div class="contact-actions">
+  <a class="btn btn--primary" href="tel:{{contact.phones.[0].tel}}">
+    {{> icon name="phone" class="btn__icon"}}
+    <span>تماس تلفنی <bdi>{{contact.phones.[0].display}}</bdi></span>
+  </a>
+  <a class="btn btn--ghost" href="https://wa.me/{{contact.whatsapp.number}}?text={{contact.whatsapp.prefill}}" target="_blank" rel="noopener">
+    {{> icon name="whatsapp" class="btn__icon"}}
+    <span>واتس‌اپ</span>
+  </a>
+</div>

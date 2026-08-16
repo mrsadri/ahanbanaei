@@ -1,0 +1,11 @@
+{{!-- Usage: {{> section-heading title=page.hero.title lead=page.hero.lead}}
+     Pass level=1 for the one page-top hero heading (the page's only <h1>);
+     every other section heading defaults to <h2>. --}}
+<div class="section-heading">
+  {{#eq level 1}}
+    <h1>{{title}}</h1>
+  {{else}}
+    <h2>{{title}}</h2>
+  {{/eq}}
+  {{#if lead}}<p class="section-heading__lead">{{lead}}</p>{{/if}}
+</div>

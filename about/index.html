@@ -1,0 +1,39 @@
+{{> head title=page.title description=page.description canonical="/about/"}}
+<body>
+<a class="skip-link" href="#main">رفتن به محتوای اصلی</a>
+{{> header active="about"}}
+
+<main id="main">
+  <section class="hero hero--plain">
+    <div class="container">
+      {{> section-heading level=1 title="درباره آهن‌آلات بنایی"}}
+    </div>
+  </section>
+
+  <section id="about-body">
+    <div class="container about__grid">
+      <div class="about__copy">
+        {{#each page.body}}
+        <p>{{this}}</p>
+        {{/each}}
+        <blockquote class="about__quote">{{business.slogan}}</blockquote>
+      </div>
+      <figure class="about__photo">
+        <img src="/img/gallery/g06-960.webp" alt="نمای نزدیک تیرآهن‌های چیده‌شده (عکس نمونه)" width="960" height="1280" loading="lazy" decoding="async">
+      </figure>
+    </div>
+  </section>
+
+  <section id="about-cta">
+    <div class="container text-center">
+      {{> section-heading title="برای مشاوره خرید تماس بگیرید"}}
+      {{> contact-actions}}
+    </div>
+  </section>
+</main>
+
+{{> footer}}
+{{> sticky-bar}}
+<script type="module" src="/src/scripts/main.js"></script>
+</body>
+</html>
