@@ -11,7 +11,11 @@
 {{#if noindex}}<meta name="robots" content="noindex">{{/if}}
 
 <link rel="preload" href="/fonts/vazirmatn-var.woff2" as="font" type="font/woff2" crossorigin>
-{{#if preloadHero}}<link rel="preload" href="{{preloadHero}}" as="image">{{/if}}
+{{!-- imagesrcset/imagesizes must mirror the hero <picture> exactly, or the
+     preload fetches one variant and the picture then fetches another. --}}
+{{#if preloadHero}}<link rel="preload" as="image" type="image/webp"
+  imagesrcset="{{preloadHero}}-480.webp 480w, {{preloadHero}}-960.webp 960w, {{preloadHero}}-1440.webp 1440w"
+  imagesizes="(min-width: 64rem) 50vw, 100vw">{{/if}}
 
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon.ico" sizes="any">

@@ -11,6 +11,20 @@ const root = dirname(dirname(fileURLToPath(import.meta.url)))
 const RAW_DIR = resolve(root, 'raw-photos')
 const WIDTHS = [480, 960, 1440]
 const QUALITY = 72
+// The hero is square, so its largest variant carries 50% more pixels than a
+// 3:2 frame at the same width. Trimming quality keeps it inside the 160KB
+// per-image budget; at this size the difference is not visible.
+const QUALITY_BY_SET = { hero: 62 }
+
+// Display aspect ratio (width / height) per image set, matching the box the
+// component actually renders. Cropping to it here means the browser never
+// downloads pixels that CSS `object-fit: cover` immediately throws away.
+const ASPECT = {
+  hero: 1,        // square
+  gallery: 3 / 2,
+  products: 3 / 2
+}
+const DEFAULT_ASPECT = 3 / 2
 
 // raw-photos/hero/hero.jpg     -> public/img/hero/hero-{480,960,1440}.webp + hero-1440.jpg
 // raw-photos/gallery/g01.jpg   -> public/img/gallery/g01-{480,960,1440}.webp
@@ -19,25 +33,25 @@ async function processSet (setDir) {
   const outDir = resolve(root, 'public/img', setName)
   await mkdir(outDir, { recursive: true })
 
+  const aspect = ASPECT[setName] ?? DEFAULT_ASPECT
+  const heightFor = (width) => Math.round(width / aspect)
+  const quality = QUALITY_BY_SET[setName] ?? QUALITY
+
   const files = (await readdir(setDir)).filter((f) => /\.(jpe?g|png)$/i.test(f))
   for (const file of files) {
     const name = basename(file, extname(file))
     const input = resolve(setDir, file)
     const image = sharp(input).rotate() // rotate() with no args auto-orients from EXIF, then strips it
 
-    // Every component that displays these images crops to a 3:2 box via
-    // CSS `object-fit: cover`; cropping here too means the browser never
-    // downloads pixels it immediately throws away (matters for a portrait
-    // source photo, which would otherwise ship ~2x the bytes for nothing).
     for (const width of WIDTHS) {
       const outWebp = resolve(outDir, `${name}-${width}.webp`)
-      await image.clone().resize({ width, height: Math.round(width * 2 / 3), fit: 'cover' })
-        .webp({ quality: QUALITY }).toFile(outWebp)
+      await image.clone().resize({ width, height: heightFor(width), fit: 'cover' })
+        .webp({ quality }).toFile(outWebp)
       console.log('wrote', outWebp)
     }
 
     const outJpg = resolve(outDir, `${name}-1440.jpg`)
-    await image.clone().resize({ width: 1440, height: 960, fit: 'cover' })
+    await image.clone().resize({ width: 1440, height: heightFor(1440), fit: 'cover' })
       .jpeg({ quality: 75, mozjpeg: true }).toFile(outJpg)
     console.log('wrote', outJpg)
   }

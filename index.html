@@ -1,4 +1,4 @@
-{{> head title=page.title description=page.description canonical="/" preloadHero=(concat page.hero.image "-960.webp")}}
+{{> head title=page.title description=page.description canonical="/" preloadHero=page.hero.image}}
 <body>
 <a class="skip-link" href="#main">رفتن به محتوای اصلی</a>
 {{> header active="home"}}
@@ -22,7 +22,7 @@
       </div>
       <picture class="hero__media">
         <source type="image/webp" srcset="{{page.hero.image}}-480.webp 480w, {{page.hero.image}}-960.webp 960w, {{page.hero.image}}-1440.webp 1440w" sizes="(min-width: 64rem) 50vw, 100vw">
-        <img src="{{page.hero.image}}-1440.jpg" alt="{{page.hero.imageAltFa}}" width="1440" height="960" loading="eager" fetchpriority="high" decoding="async">
+        <img src="{{page.hero.image}}-1440.jpg" alt="{{page.hero.imageAltFa}}" width="1440" height="1440" loading="eager" fetchpriority="high" decoding="async">
       </picture>
     </div>
   </section>
