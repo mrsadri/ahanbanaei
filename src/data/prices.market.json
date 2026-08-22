@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-21T05:00:39.377Z",
+  "generatedAt": "2026-08-22T04:56:07.141Z",
   "sources": {
     "ahanonline": {
       "titleFa": "آهن آنلاین",
       "url": "https://www.ahanonline.com/",
       "status": "ok",
-      "fetchedAt": "2026-08-21T05:00:34.376Z",
-      "lastGoodAt": "2026-08-21T05:00:34.376Z",
+      "fetchedAt": "2026-08-22T04:56:01.470Z",
+      "lastGoodAt": "2026-08-22T04:56:01.470Z",
       "errorFa": null
     }
   },
@@ -21,7 +21,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-08-21T05:00:34.377Z",
+      "capturedAt": "2026-08-22T04:56:01.470Z",
       "status": "ok"
     },
     {
@@ -33,7 +33,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-08-21T05:00:34.377Z",
+      "capturedAt": "2026-08-22T04:56:01.470Z",
       "status": "ok"
     },
     {
@@ -45,7 +45,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-08-21T05:00:34.377Z",
+      "capturedAt": "2026-08-22T04:56:01.470Z",
       "status": "ok"
     },
     {
@@ -57,7 +57,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-08-21T05:00:34.377Z",
+      "capturedAt": "2026-08-22T04:56:01.470Z",
       "status": "ok"
     },
     {
@@ -69,7 +69,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-08-21T05:00:34.377Z",
+      "capturedAt": "2026-08-22T04:56:01.470Z",
       "status": "ok"
     },
     {
@@ -81,7 +81,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-08-21T05:00:34.377Z",
+      "capturedAt": "2026-08-22T04:56:01.470Z",
       "status": "ok"
     },
     {
@@ -93,7 +93,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-08-21T05:00:34.377Z",
+      "capturedAt": "2026-08-22T04:56:01.470Z",
       "status": "ok"
     },
     {
@@ -105,7 +105,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-08-21T05:00:34.377Z",
+      "capturedAt": "2026-08-22T04:56:01.470Z",
       "status": "ok"
     },
     {
@@ -117,7 +117,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-08-21T05:00:34.377Z",
+      "capturedAt": "2026-08-22T04:56:01.470Z",
       "status": "ok"
     },
     {
@@ -129,7 +129,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-08-21T05:00:34.377Z",
+      "capturedAt": "2026-08-22T04:56:01.470Z",
       "status": "ok"
     },
     {
@@ -141,7 +141,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-08-21T05:00:34.377Z",
+      "capturedAt": "2026-08-22T04:56:01.470Z",
       "status": "ok"
     }
   ]
