@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T04:58:51.628Z",
+  "generatedAt": "2026-08-24T05:07:47.663Z",
   "sources": {
     "ahanonline": {
       "titleFa": "آهن آنلاین",
       "url": "https://www.ahanonline.com/",
       "status": "ok",
-      "fetchedAt": "2026-08-23T04:58:45.720Z",
+      "fetchedAt": "2026-08-24T05:07:42.978Z",
       "lastGoodAt": "2026-08-23T04:58:45.720Z",
       "errorFa": null
     }
@@ -22,7 +22,7 @@
       "unit": "kg",
       "currency": "IRT",
       "capturedAt": "2026-08-23T04:58:45.720Z",
-      "status": "ok"
+      "status": "stale"
     },
     {
       "sku": "rebar_14_a3",
@@ -34,7 +34,7 @@
       "unit": "kg",
       "currency": "IRT",
       "capturedAt": "2026-08-23T04:58:45.720Z",
-      "status": "ok"
+      "status": "stale"
     },
     {
       "sku": "rebar_16_a3",
@@ -46,7 +46,7 @@
       "unit": "kg",
       "currency": "IRT",
       "capturedAt": "2026-08-23T04:58:45.720Z",
-      "status": "ok"
+      "status": "stale"
     },
     {
       "sku": "rebar_18_a3",
@@ -58,7 +58,7 @@
       "unit": "kg",
       "currency": "IRT",
       "capturedAt": "2026-08-23T04:58:45.720Z",
-      "status": "ok"
+      "status": "stale"
     },
     {
       "sku": "rebar_20_a3",
@@ -70,7 +70,7 @@
       "unit": "kg",
       "currency": "IRT",
       "capturedAt": "2026-08-23T04:58:45.720Z",
-      "status": "ok"
+      "status": "stale"
     },
     {
       "sku": "rebar_25_a3",
@@ -82,7 +82,7 @@
       "unit": "kg",
       "currency": "IRT",
       "capturedAt": "2026-08-23T04:58:45.720Z",
-      "status": "ok"
+      "status": "stale"
     },
     {
       "sku": "rebar_32_a3",
@@ -94,7 +94,7 @@
       "unit": "kg",
       "currency": "IRT",
       "capturedAt": "2026-08-23T04:58:45.720Z",
-      "status": "ok"
+      "status": "stale"
     },
     {
       "sku": "ipe_14_st37",
@@ -106,7 +106,7 @@
       "unit": "kg",
       "currency": "IRT",
       "capturedAt": "2026-08-23T04:58:45.720Z",
-      "status": "ok"
+      "status": "stale"
     },
     {
       "sku": "ipe_16_st37",
@@ -118,7 +118,7 @@
       "unit": "kg",
       "currency": "IRT",
       "capturedAt": "2026-08-23T04:58:45.720Z",
-      "status": "ok"
+      "status": "stale"
     },
     {
       "sku": "ipe_18_st37",
@@ -130,7 +130,7 @@
       "unit": "kg",
       "currency": "IRT",
       "capturedAt": "2026-08-23T04:58:45.720Z",
-      "status": "ok"
+      "status": "stale"
     },
     {
       "sku": "ipe_20_st37",
@@ -142,7 +142,7 @@
       "unit": "kg",
       "currency": "IRT",
       "capturedAt": "2026-08-23T04:58:45.720Z",
-      "status": "ok"
+      "status": "stale"
     }
   ]
 }
