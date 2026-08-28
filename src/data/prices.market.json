@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-27T15:21:47.473Z",
+  "generatedAt": "2026-08-28T16:45:37.924Z",
   "sources": {
     "ahanonline": {
       "titleFa": "آهن آنلاین",
       "url": "https://www.ahanonline.com/",
       "status": "ok",
-      "fetchedAt": "2026-08-27T15:21:41.019Z",
-      "lastGoodAt": "2026-08-27T15:21:41.019Z",
+      "fetchedAt": "2026-08-28T16:45:31.568Z",
+      "lastGoodAt": "2026-08-28T16:45:31.568Z",
       "errorFa": null
     }
   },
@@ -21,7 +21,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-08-27T15:21:41.020Z",
+      "capturedAt": "2026-08-28T16:45:31.568Z",
       "status": "ok"
     },
     {
@@ -33,7 +33,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-08-27T15:21:41.020Z",
+      "capturedAt": "2026-08-28T16:45:31.568Z",
       "status": "ok"
     },
     {
@@ -45,7 +45,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-08-27T15:21:41.020Z",
+      "capturedAt": "2026-08-28T16:45:31.568Z",
       "status": "ok"
     },
     {
@@ -57,7 +57,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-08-27T15:21:41.020Z",
+      "capturedAt": "2026-08-28T16:45:31.568Z",
       "status": "ok"
     },
     {
@@ -69,7 +69,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-08-27T15:21:41.020Z",
+      "capturedAt": "2026-08-28T16:45:31.568Z",
       "status": "ok"
     },
     {
@@ -81,7 +81,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-08-27T15:21:41.020Z",
+      "capturedAt": "2026-08-28T16:45:31.568Z",
       "status": "ok"
     },
     {
@@ -93,7 +93,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-08-27T15:21:41.020Z",
+      "capturedAt": "2026-08-28T16:45:31.568Z",
       "status": "ok"
     },
     {
@@ -101,11 +101,11 @@
       "sourceId": "ahanonline",
       "sourceUrl": "https://www.ahanonline.com/product-category/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86-%D9%88-%D9%87%D8%A7%D8%B4/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86/",
       "price": 94782,
-      "previousPrice": 94088,
-      "changePct": 0.74,
+      "previousPrice": 94782,
+      "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-08-27T15:21:41.020Z",
+      "capturedAt": "2026-08-28T16:45:31.568Z",
       "status": "ok"
     },
     {
@@ -113,11 +113,11 @@
       "sourceId": "ahanonline",
       "sourceUrl": "https://www.ahanonline.com/product-category/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86-%D9%88-%D9%87%D8%A7%D8%B4/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86/",
       "price": 95626,
-      "previousPrice": 95323,
-      "changePct": 0.32,
+      "previousPrice": 95626,
+      "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-08-27T15:21:41.020Z",
+      "capturedAt": "2026-08-28T16:45:31.568Z",
       "status": "ok"
     },
     {
@@ -125,11 +125,11 @@
       "sourceId": "ahanonline",
       "sourceUrl": "https://www.ahanonline.com/product-category/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86-%D9%88-%D9%87%D8%A7%D8%B4/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86/",
       "price": 99486,
-      "previousPrice": 98919,
-      "changePct": 0.57,
+      "previousPrice": 99486,
+      "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-08-27T15:21:41.020Z",
+      "capturedAt": "2026-08-28T16:45:31.568Z",
       "status": "ok"
     },
     {
@@ -137,11 +137,11 @@
       "sourceId": "ahanonline",
       "sourceUrl": "https://www.ahanonline.com/product-category/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86-%D9%88-%D9%87%D8%A7%D8%B4/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86/",
       "price": 108417,
-      "previousPrice": 107586,
-      "changePct": 0.77,
+      "previousPrice": 108417,
+      "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-08-27T15:21:41.020Z",
+      "capturedAt": "2026-08-28T16:45:31.568Z",
       "status": "ok"
     }
   ]
