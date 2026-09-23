@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T09:23:31.264Z",
+  "generatedAt": "2026-09-23T09:24:12.016Z",
   "sources": {
     "ahanonline": {
       "titleFa": "آهن آنلاین",
       "url": "https://www.ahanonline.com/",
       "status": "ok",
-      "fetchedAt": "2026-09-22T09:23:25.916Z",
-      "lastGoodAt": "2026-09-22T09:23:25.916Z",
+      "fetchedAt": "2026-09-23T09:24:05.617Z",
+      "lastGoodAt": "2026-09-23T09:24:05.617Z",
       "errorFa": null
     }
   },
@@ -21,7 +21,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-09-22T09:23:25.916Z",
+      "capturedAt": "2026-09-23T09:24:05.618Z",
       "status": "ok"
     },
     {
@@ -33,7 +33,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-09-22T09:23:25.916Z",
+      "capturedAt": "2026-09-23T09:24:05.618Z",
       "status": "ok"
     },
     {
@@ -45,7 +45,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-09-22T09:23:25.916Z",
+      "capturedAt": "2026-09-23T09:24:05.618Z",
       "status": "ok"
     },
     {
@@ -57,7 +57,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-09-22T09:23:25.916Z",
+      "capturedAt": "2026-09-23T09:24:05.618Z",
       "status": "ok"
     },
     {
@@ -69,7 +69,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-09-22T09:23:25.916Z",
+      "capturedAt": "2026-09-23T09:24:05.618Z",
       "status": "ok"
     },
     {
@@ -81,7 +81,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-09-22T09:23:25.916Z",
+      "capturedAt": "2026-09-23T09:24:05.618Z",
       "status": "ok"
     },
     {
@@ -93,55 +93,55 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-09-22T09:23:25.916Z",
+      "capturedAt": "2026-09-23T09:24:05.618Z",
       "status": "ok"
     },
     {
       "sku": "ipe_14_st37",
       "sourceId": "ahanonline",
       "sourceUrl": "https://www.ahanonline.com/product-category/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86-%D9%88-%D9%87%D8%A7%D8%B4/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86/",
-      "price": 108713,
-      "previousPrice": 105848,
-      "changePct": 2.71,
+      "price": 108234,
+      "previousPrice": 108713,
+      "changePct": -0.44,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-09-22T09:23:25.916Z",
+      "capturedAt": "2026-09-23T09:24:05.618Z",
       "status": "ok"
     },
     {
       "sku": "ipe_16_st37",
       "sourceId": "ahanonline",
       "sourceUrl": "https://www.ahanonline.com/product-category/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86-%D9%88-%D9%87%D8%A7%D8%B4/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86/",
-      "price": 108147,
-      "previousPrice": 105339,
-      "changePct": 2.67,
+      "price": 106887,
+      "previousPrice": 108147,
+      "changePct": -1.17,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-09-22T09:23:25.916Z",
+      "capturedAt": "2026-09-23T09:24:05.618Z",
       "status": "ok"
     },
     {
       "sku": "ipe_18_st37",
       "sourceId": "ahanonline",
       "sourceUrl": "https://www.ahanonline.com/product-category/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86-%D9%88-%D9%87%D8%A7%D8%B4/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86/",
-      "price": 107128,
-      "previousPrice": 103371,
-      "changePct": 3.63,
+      "price": 107219,
+      "previousPrice": 107128,
+      "changePct": 0.08,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-09-22T09:23:25.916Z",
+      "capturedAt": "2026-09-23T09:24:05.618Z",
       "status": "ok"
     },
     {
       "sku": "ipe_20_st37",
       "sourceId": "ahanonline",
       "sourceUrl": "https://www.ahanonline.com/product-category/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86-%D9%88-%D9%87%D8%A7%D8%B4/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86/",
-      "price": 124187,
-      "previousPrice": 126295,
-      "changePct": -1.67,
+      "price": 122841,
+      "previousPrice": 124187,
+      "changePct": -1.08,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-09-22T09:23:25.916Z",
+      "capturedAt": "2026-09-23T09:24:05.618Z",
       "status": "ok"
     },
     {
