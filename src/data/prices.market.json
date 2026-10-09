@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-08T11:29:41.771Z",
+  "generatedAt": "2026-10-09T11:25:12.695Z",
   "sources": {
     "ahanonline": {
       "titleFa": "آهن آنلاین",
       "url": "https://www.ahanonline.com/",
       "status": "ok",
-      "fetchedAt": "2026-10-08T11:29:35.306Z",
-      "lastGoodAt": "2026-10-08T11:29:35.306Z",
+      "fetchedAt": "2026-10-09T11:25:07.482Z",
+      "lastGoodAt": "2026-10-09T11:25:07.482Z",
       "errorFa": null
     }
   },
@@ -105,7 +105,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-10-08T11:29:35.306Z",
+      "capturedAt": "2026-10-09T11:25:07.482Z",
       "status": "ok"
     },
     {
@@ -117,7 +117,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-10-08T11:29:35.306Z",
+      "capturedAt": "2026-10-09T11:25:07.482Z",
       "status": "ok"
     },
     {
@@ -141,7 +141,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-10-08T11:29:35.306Z",
+      "capturedAt": "2026-10-09T11:25:07.482Z",
       "status": "ok"
     },
     {
