@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T10:42:52.135Z",
+  "generatedAt": "2026-10-11T10:55:32.699Z",
   "sources": {
     "ahanonline": {
       "titleFa": "آهن آنلاین",
       "url": "https://www.ahanonline.com/",
       "status": "ok",
-      "fetchedAt": "2026-10-10T10:42:46.260Z",
-      "lastGoodAt": "2026-10-10T10:42:46.260Z",
+      "fetchedAt": "2026-10-11T10:55:26.836Z",
+      "lastGoodAt": "2026-10-11T10:55:26.836Z",
       "errorFa": null
     }
   },
@@ -100,24 +100,24 @@
       "sku": "ipe_14_st37",
       "sourceId": "ahanonline",
       "sourceUrl": "https://www.ahanonline.com/product-category/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86-%D9%88-%D9%87%D8%A7%D8%B4/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86/",
-      "price": 127997,
-      "previousPrice": 129169,
-      "changePct": -0.91,
+      "price": 125405,
+      "previousPrice": 127997,
+      "changePct": -2.03,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-10-10T10:42:46.260Z",
+      "capturedAt": "2026-10-11T10:55:26.836Z",
       "status": "ok"
     },
     {
       "sku": "ipe_16_st37",
       "sourceId": "ahanonline",
       "sourceUrl": "https://www.ahanonline.com/product-category/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86-%D9%88-%D9%87%D8%A7%D8%B4/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86/",
-      "price": 120733,
-      "previousPrice": 124720,
-      "changePct": -3.2,
+      "price": 121612,
+      "previousPrice": 120733,
+      "changePct": 0.73,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-10-10T10:42:46.260Z",
+      "capturedAt": "2026-10-11T10:55:26.836Z",
       "status": "ok"
     },
     {
@@ -137,11 +137,11 @@
       "sourceId": "ahanonline",
       "sourceUrl": "https://www.ahanonline.com/product-category/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86-%D9%88-%D9%87%D8%A7%D8%B4/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86/",
       "price": 147249,
-      "previousPrice": 149439,
-      "changePct": -1.47,
+      "previousPrice": 147249,
+      "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-10-10T10:42:46.260Z",
+      "capturedAt": "2026-10-11T10:55:26.836Z",
       "status": "ok"
     },
     {
