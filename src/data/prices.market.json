@@ -1,17 +1,29 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T09:26:54.732Z",
+  "generatedAt": "2026-10-24T08:58:31.588Z",
   "sources": {
     "ahanonline": {
       "titleFa": "آهن آنلاین",
       "url": "https://www.ahanonline.com/",
       "status": "ok",
-      "fetchedAt": "2026-10-23T09:26:47.661Z",
-      "lastGoodAt": "2026-10-23T09:26:47.661Z",
+      "fetchedAt": "2026-10-24T08:58:27.302Z",
+      "lastGoodAt": "2026-10-24T08:58:27.302Z",
       "errorFa": null
     }
   },
   "items": [
+    {
+      "sku": "rebar_10_a3",
+      "sourceId": "ahanonline",
+      "sourceUrl": "https://www.ahanonline.com/product-category/%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/%D9%82%DB%8C%D9%85%D8%AA-%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/",
+      "price": 88730,
+      "previousPrice": 87050,
+      "changePct": 1.93,
+      "unit": "kg",
+      "currency": "IRT",
+      "capturedAt": "2026-09-26T09:26:22.011Z",
+      "status": "stale"
+    },
     {
       "sku": "rebar_12_a3",
       "sourceId": "ahanonline",
@@ -40,36 +52,36 @@
       "sku": "rebar_16_a3",
       "sourceId": "ahanonline",
       "sourceUrl": "https://www.ahanonline.com/product-category/%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/%D9%82%DB%8C%D9%85%D8%AA-%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/",
-      "price": 111360,
+      "price": 118180,
       "previousPrice": 111360,
-      "changePct": 0,
+      "changePct": 6.12,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-10-23T09:26:47.662Z",
+      "capturedAt": "2026-10-24T08:58:27.302Z",
       "status": "ok"
     },
     {
       "sku": "rebar_18_a3",
       "sourceId": "ahanonline",
       "sourceUrl": "https://www.ahanonline.com/product-category/%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/%D9%82%DB%8C%D9%85%D8%AA-%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/",
-      "price": 110000,
+      "price": 118180,
       "previousPrice": 110000,
-      "changePct": 0,
+      "changePct": 7.44,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-10-23T09:26:47.662Z",
+      "capturedAt": "2026-10-24T08:58:27.302Z",
       "status": "ok"
     },
     {
       "sku": "rebar_20_a3",
       "sourceId": "ahanonline",
       "sourceUrl": "https://www.ahanonline.com/product-category/%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/%D9%82%DB%8C%D9%85%D8%AA-%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/",
-      "price": 110000,
+      "price": 118180,
       "previousPrice": 110000,
-      "changePct": 0,
+      "changePct": 7.44,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-10-23T09:26:47.662Z",
+      "capturedAt": "2026-10-24T08:58:27.302Z",
       "status": "ok"
     },
     {
@@ -88,12 +100,12 @@
       "sku": "rebar_32_a3",
       "sourceId": "ahanonline",
       "sourceUrl": "https://www.ahanonline.com/product-category/%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/%D9%82%DB%8C%D9%85%D8%AA-%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/",
-      "price": 109450,
+      "price": 118640,
       "previousPrice": 109450,
-      "changePct": 0,
+      "changePct": 8.4,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-10-23T09:26:47.662Z",
+      "capturedAt": "2026-10-24T08:58:27.302Z",
       "status": "ok"
     },
     {
@@ -105,7 +117,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-10-23T09:26:47.662Z",
+      "capturedAt": "2026-10-24T08:58:27.302Z",
       "status": "ok"
     },
     {
@@ -117,7 +129,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-10-23T09:26:47.662Z",
+      "capturedAt": "2026-10-24T08:58:27.302Z",
       "status": "ok"
     },
     {
@@ -129,7 +141,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-10-23T09:26:47.662Z",
+      "capturedAt": "2026-10-24T08:58:27.302Z",
       "status": "ok"
     },
     {
@@ -141,20 +153,8 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-10-23T09:26:47.662Z",
+      "capturedAt": "2026-10-24T08:58:27.302Z",
       "status": "ok"
-    },
-    {
-      "sku": "rebar_10_a3",
-      "sourceId": "ahanonline",
-      "sourceUrl": "https://www.ahanonline.com/product-category/%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/%D9%82%DB%8C%D9%85%D8%AA-%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/",
-      "price": 88730,
-      "previousPrice": 87050,
-      "changePct": 1.93,
-      "unit": "kg",
-      "currency": "IRT",
-      "capturedAt": "2026-09-26T09:26:22.011Z",
-      "status": "stale"
     },
     {
       "sku": "rebar_8_a2",
