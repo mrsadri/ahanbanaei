@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T10:29:09.705Z",
+  "generatedAt": "2026-11-01T11:23:49.288Z",
   "sources": {
     "ahanonline": {
       "titleFa": "آهن آنلاین",
       "url": "https://www.ahanonline.com/",
       "status": "ok",
-      "fetchedAt": "2026-10-31T10:29:06.227Z",
-      "lastGoodAt": "2026-10-31T10:29:06.227Z",
+      "fetchedAt": "2026-11-01T11:23:45.303Z",
+      "lastGoodAt": "2026-11-01T11:23:45.303Z",
       "errorFa": null
     }
   },
@@ -41,11 +41,11 @@
       "sourceId": "ahanonline",
       "sourceUrl": "https://www.ahanonline.com/product-category/%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/%D9%82%DB%8C%D9%85%D8%AA-%D9%85%DB%8C%D9%84%DA%AF%D8%B1%D8%AF/",
       "price": 114550,
-      "previousPrice": 115450,
-      "changePct": -0.78,
+      "previousPrice": 114550,
+      "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-10-31T10:29:06.227Z",
+      "capturedAt": "2026-11-01T11:23:45.303Z",
       "status": "ok"
     },
     {
@@ -57,7 +57,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-10-31T10:29:06.227Z",
+      "capturedAt": "2026-11-01T11:23:45.303Z",
       "status": "ok"
     },
     {
@@ -69,7 +69,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-10-31T10:29:06.227Z",
+      "capturedAt": "2026-11-01T11:23:45.303Z",
       "status": "ok"
     },
     {
@@ -93,7 +93,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-10-31T10:29:06.227Z",
+      "capturedAt": "2026-11-01T11:23:45.303Z",
       "status": "ok"
     },
     {
@@ -101,11 +101,11 @@
       "sourceId": "ahanonline",
       "sourceUrl": "https://www.ahanonline.com/product-category/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86-%D9%88-%D9%87%D8%A7%D8%B4/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86/",
       "price": 135385,
-      "previousPrice": 131917,
-      "changePct": 2.63,
+      "previousPrice": 135385,
+      "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-10-31T10:29:06.227Z",
+      "capturedAt": "2026-11-01T11:23:45.303Z",
       "status": "ok"
     },
     {
@@ -117,7 +117,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-10-31T10:29:06.227Z",
+      "capturedAt": "2026-11-01T11:23:45.303Z",
       "status": "ok"
     },
     {
@@ -125,11 +125,11 @@
       "sourceId": "ahanonline",
       "sourceUrl": "https://www.ahanonline.com/product-category/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86-%D9%88-%D9%87%D8%A7%D8%B4/%D8%AA%DB%8C%D8%B1%D8%A2%D9%87%D9%86/",
       "price": 143400,
-      "previousPrice": 142741,
-      "changePct": 0.46,
+      "previousPrice": 143400,
+      "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-10-31T10:29:06.227Z",
+      "capturedAt": "2026-11-01T11:23:45.303Z",
       "status": "ok"
     },
     {
@@ -141,7 +141,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-10-31T10:29:06.227Z",
+      "capturedAt": "2026-11-01T11:23:45.303Z",
       "status": "ok"
     },
     {
