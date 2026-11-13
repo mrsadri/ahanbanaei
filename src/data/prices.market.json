@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T12:59:35.941Z",
+  "generatedAt": "2026-11-13T12:25:05.581Z",
   "sources": {
     "ahanonline": {
       "titleFa": "آهن آنلاین",
       "url": "https://www.ahanonline.com/",
       "status": "ok",
-      "fetchedAt": "2026-11-12T12:59:32.284Z",
-      "lastGoodAt": "2026-11-12T12:59:32.284Z",
+      "fetchedAt": "2026-11-13T12:25:01.572Z",
+      "lastGoodAt": "2026-11-13T12:25:01.572Z",
       "errorFa": null
     }
   },
@@ -45,7 +45,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-11-12T12:59:32.284Z",
+      "capturedAt": "2026-11-13T12:25:01.572Z",
       "status": "ok"
     },
     {
@@ -57,7 +57,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-11-12T12:59:32.284Z",
+      "capturedAt": "2026-11-13T12:25:01.572Z",
       "status": "ok"
     },
     {
@@ -69,7 +69,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-11-12T12:59:32.284Z",
+      "capturedAt": "2026-11-13T12:25:01.572Z",
       "status": "ok"
     },
     {
@@ -93,7 +93,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-11-12T12:59:32.284Z",
+      "capturedAt": "2026-11-13T12:25:01.572Z",
       "status": "ok"
     },
     {
@@ -105,7 +105,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-11-12T12:59:32.284Z",
+      "capturedAt": "2026-11-13T12:25:01.572Z",
       "status": "ok"
     },
     {
@@ -117,7 +117,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-11-12T12:59:32.284Z",
+      "capturedAt": "2026-11-13T12:25:01.572Z",
       "status": "ok"
     },
     {
@@ -129,7 +129,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-11-12T12:59:32.284Z",
+      "capturedAt": "2026-11-13T12:25:01.572Z",
       "status": "ok"
     },
     {
@@ -141,7 +141,7 @@
       "changePct": 0,
       "unit": "kg",
       "currency": "IRT",
-      "capturedAt": "2026-11-12T12:59:32.284Z",
+      "capturedAt": "2026-11-13T12:25:01.572Z",
       "status": "ok"
     },
     {
